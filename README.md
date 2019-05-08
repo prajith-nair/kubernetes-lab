@@ -59,11 +59,14 @@ Now you are ready to verify that the cluster is up and running. On the Kube Mast
 
 ```
 kubectl get nodes
+
 It should look something like this:
-NAME                      STATUS   ROLES    AGE   VERSION
-pnair1c.mylabserver.com   Ready    master   54m   v1.12.2
-pnair2c.mylabserver.com   Ready    <none>   49m   v1.12.2
-pnair3c.mylabserver.com   Ready    <none>   49m   v1.12.2
+
+NAME                                          STATUS   ROLES    AGE   VERSION
+ip-172-31-36-155.us-west-2.compute.internal   Ready    <none>   9h    v1.14.1
+ip-172-31-43-227.us-west-2.compute.internal   Ready    master   10h   v1.14.1
+ip-172-31-46-75.us-west-2.compute.internal    Ready    <none>   9h    v1.14.1
+
 ```
 
 Make sure that all three of your nodes are listed and that all have a STATUS of Ready.
