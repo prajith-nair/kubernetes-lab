@@ -66,5 +66,5 @@ pnair2c.mylabserver.com   Ready    <none>   49m   v1.12.2
 pnair3c.mylabserver.com   Ready    <none>   49m   v1.12.2
 ```
 
-#Make sure that all three of your nodes are listed and that all have a STATUS of Ready.
+Make sure that all three of your nodes are listed and that all have a STATUS of Ready.
 
