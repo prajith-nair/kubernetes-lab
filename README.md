@@ -1,4 +1,4 @@
-# kubernetes-lab
+# kubernetes-lab v1
 Repo for K8S hands on lab
 
 # Set up your kubernetes cluster – 3 node on Ubuntu 
